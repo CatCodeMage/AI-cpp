@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\constants">
+      <UniqueIdentifier>{b76e834e-5839-462f-b58a-5d0118c8a5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\class">
+      <UniqueIdentifier>{5819152a-b593-42a4-ab04-c76a35a0c724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\functions">
+      <UniqueIdentifier>{bae20725-cfe3-4e15-8428-041b20f482dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="class\neuron.cpp">
+      <Filter>Archivos de recursos\class</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\math.cpp">
+      <Filter>Archivos de recursos\functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="constants\constants.h">
+      <Filter>Archivos de recursos\constants</Filter>
+    </Text>
+    <Text Include="class\neuron.h">
+      <Filter>Archivos de recursos\class</Filter>
+    </Text>
+    <Text Include="functions\math.h">
+      <Filter>Archivos de recursos\functions</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
